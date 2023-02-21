@@ -16,4 +16,4 @@
 > ``` 
 > This is simpler and more readable. There is no need for "->" or ":" or writing "fn" or any other syntax sugar that one might come up with.
 > 
-> I believe C is still the best language ever written, if it could just be a little more productive. Simple things such as string manipulation is "hard". I also want to remove the need for pointers and memory allocation/freeing. 
+> I believe C is still the best language ever written, if it could just be a little more productive. Simple things such as string manipulation is "hard". I also want to remove the need for pointers and memory allocation/freeing and let the compiler handle that part.
