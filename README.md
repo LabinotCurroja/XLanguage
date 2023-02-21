@@ -9,7 +9,7 @@
 > ```
 > The arguments in the function are denoted as (param : type)
 > 
-> All it does is add an extra character ":" - also "fn" which is the keyword for a function, which in this case returns -> bool - This is too subjective. 
+> All it does is add an extra character ":" - also "fn" which is the keyword for a function, which in this case returns a -> bool - This is too subjective. 
 > 
 > The function could be rewritten as follows
 > ```C
