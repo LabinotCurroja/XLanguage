@@ -17,6 +17,6 @@
 > This is simpler and more readable. There is no need for "->" or ":" or writing "fn" or any other syntax sugar that one might come up with.
 > 
 > I believe C is still the best language ever written, if it could just be a little more productive. Simple things such as string manipulation is "hard". I also want to remove the need for pointers and memory allocation/freeing and let the compiler handle that part.
-
+>
 > My intention is to create a language that is fast, readable and objective. A language that achieves the goal in the simplest way possible, without adding any fancy syntax.
 > This is still work in progress, as i only work on it in my spare time, which does not allow me to put too much effort into it for now. I haven't decided on a name for the language yet. Thats how early it is, but i still believe its beautiful, even though its young. 
