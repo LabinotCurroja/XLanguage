@@ -28,3 +28,12 @@
 - [X] supports booleans
 - [X] supports integers 
 - [X] supports strings 
+
+
+## Hello world example
+```C#
+float a = 2.4; 
+float b = 1.9;
+float c = a+b;
+print(c);
+```
