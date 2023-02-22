@@ -21,3 +21,10 @@
 >
 > My intention is to create a language that is fast, readable and objective. A language that achieves the goal in the simplest way possible, without adding any fancy syntax.
 > This is still work in progress, as i only work on it in my spare time, which does not allow me to put too much effort into it for now. I haven't decided on a name for the language yet. Thats how early it is, but i still believe its beautiful, even though its young. 
+
+#### Features 
+- [X] supports floats
+- [X] supports strings 
+- [X] supports booleans
+- [X] supports integers 
+- [] supports structs
