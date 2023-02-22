@@ -43,7 +43,8 @@ string d = "Hello World!";
 print(d);
 ```
 
->    ASTNode   code_block   -> |   0x0  
+```
+   ASTNode   code_block   -> |   0x0  
       ASTNode   assign_float   -> |   0x0  
           ASTNode   symbol   -> |   0x0  
           ASTNode   float_literal   -> |   0x4019999a  
@@ -64,3 +65,4 @@ print(d);
    ASTNode   code_block   -> |   0x0  
       ASTNode   print   -> |   0x0  
           ASTNode   identifier   -> |   0x3  
+          ```
