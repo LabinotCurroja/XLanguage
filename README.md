@@ -27,4 +27,4 @@
 - [X] supports strings 
 - [X] supports booleans
 - [X] supports integers 
-- [] supports structs
+- [ ] supports structs
