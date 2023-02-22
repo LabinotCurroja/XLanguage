@@ -32,8 +32,9 @@
 
 ## Hello world example
 ```C#
-float a = 2.4; 
-float b = 1.9;
-float c = a+b;
-print(c);
+float a  = 2.4; 
+float b  = 1.9;
+float c  = a+b;
+string d = "Hello World!";
+print(d);
 ```
