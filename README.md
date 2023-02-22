@@ -28,6 +28,7 @@
 - [X] supports booleans
 - [X] supports integers 
 - [X] supports strings 
+- [X] arithmetic expressions
 
 
 ## Simple program example
