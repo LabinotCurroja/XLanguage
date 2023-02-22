@@ -23,8 +23,8 @@
 > This is still work in progress, as i only work on it in my spare time, which does not allow me to put too much effort into it for now. I haven't decided on a name for the language yet. Thats how early it is, but i still believe its beautiful, even though its young. 
 
 #### Features 
-- [X] supports floats
+- [X] supports 32-bit floats
 - [X] supports strings 
 - [X] supports booleans
 - [X] supports integers 
-- [ ] supports structs
+- [X] supports strings 
