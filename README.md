@@ -29,7 +29,7 @@
 - [X] supports integers 
 - [X] supports strings 
 - [X] arithmetic expressions
-- [ ] arrays 
+- [X] arrays 
 - [ ] structs
 
 
