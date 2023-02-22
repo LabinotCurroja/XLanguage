@@ -29,6 +29,8 @@
 - [X] supports integers 
 - [X] supports strings 
 - [X] arithmetic expressions
+- [ ] arrays 
+- [ ] structs
 
 
 ## Simple program example
