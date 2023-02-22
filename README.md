@@ -42,3 +42,25 @@ float c = a+b;
 string d = "Hello World!";
 print(d);
 ```
+
+>    ASTNode   code_block   -> |   0x0  
+      ASTNode   assign_float   -> |   0x0  
+          ASTNode   symbol   -> |   0x0  
+          ASTNode   float_literal   -> |   0x4019999a  
+   ASTNode   code_block   -> |   0x0  
+      ASTNode   assign_float   -> |   0x1  
+          ASTNode   symbol   -> |   0x1  
+          ASTNode   float_literal   -> |   0x3ff33333  
+   ASTNode   code_block   -> |   0x0  
+      ASTNode   assign_float   -> |   0x2  
+          ASTNode   symbol   -> |   0x2  
+          ASTNode   bin_add   -> |   0x0  
+              ASTNode   identifier   -> |   0x0  
+              ASTNode   identifier   -> |   0x1  
+   ASTNode   code_block   -> |   0x0  
+      ASTNode   assign_str   -> |   0x3  
+          ASTNode   identifier   -> |   0x3  
+          ASTNode   str_literal   -> |   0x4  
+   ASTNode   code_block   -> |   0x0  
+      ASTNode   print   -> |   0x0  
+          ASTNode   identifier   -> |   0x3  
