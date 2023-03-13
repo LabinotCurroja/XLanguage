@@ -66,3 +66,5 @@ print(d);
       ASTNode   print   -> |   0x0  
           ASTNode   identifier   -> |   0x3  
 ```
+
+This project is not production ready in any way, but rather a long term commitment to create a language that is perfect. At least in my eyes.
