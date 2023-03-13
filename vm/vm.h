@@ -18,7 +18,7 @@
 #define NONE            0
 
 
-/* important that is becomes more dynamic when system is stable */
+/* important that this becomes more dynamic when system is stable */
 #define VMX_default_program_mem    4096 * 2
 #define VMX_code_segment           0
 #define VMX_data_segment           4096 / 2                /* important that this is READ only */
@@ -209,29 +209,6 @@ void secure_boundaries_(VM *vm)
 
 }
 
-double decode_float(VM *vm, i64 pointer_ds)
-{
-
-    i64 butterfly = vm->memory[pointer_ds];
-
-    i64 length    = butterfly  & SRC_MASK;
-
-    char * float_string = malloc(length);
-
-    for(int i=0; i < length; i++)
-    {
-        i64 butterfly_value = vm->memory[pointer_ds+1+i];
-        i64 bf_src_char     = butterfly_value  & SRC_MASK;
-
-        strncat(float_string, (char *)&bf_src_char, 1);
-    }
-
-    float_string[length+1] = '\0';
-
-    double real_value = atof(float_string);
-
-    return real_value;
-}
 
 
 
